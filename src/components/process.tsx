@@ -1,7 +1,7 @@
-import process1 from '../../public/process1.png';
-import process2 from '../../public/process2.png';
-import process3 from '../../public/process3.png';
-import process4 from '../../public/process4.png';
+import process1 from '@/assets/process1.png';
+import process2 from '@/assets/process2.png';
+import process3 from '@/assets/process3.png';
+import process4 from '@/assets/process4.png';
 
 const HowToPay = () => {
   return (
@@ -16,7 +16,6 @@ const HowToPay = () => {
           Convenient, Secure, And Hassle-Free Payments
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4  md:gap-16">
-          {/* Step 1 */}
           <div className="flex flex-col items-center p-4 ">
             <div className="">
               <img src={process1} className="h-[200px]" />
@@ -26,7 +25,6 @@ const HowToPay = () => {
             </p>
           </div>
 
-          {/* Step 2 */}
           <div className="flex flex-col items-center p-4 ">
             <div className="">
               <img src={process2} className="h-[200px]" />
@@ -36,7 +34,6 @@ const HowToPay = () => {
             </p>
           </div>
 
-          {/* Step 3 */}
           <div className="flex flex-col items-center p-4 ">
             <div className="">
               <img src={process3} className="h-[200px]" />
@@ -46,7 +43,6 @@ const HowToPay = () => {
             </p>
           </div>
 
-          {/* Step 4 */}
           <div className="flex flex-col items-center p-4 ">
             <div className="">
               <img src={process4} className="h-[200px]" />

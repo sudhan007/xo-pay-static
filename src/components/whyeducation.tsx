@@ -1,4 +1,4 @@
-import phoneImage from '../../public/mobile-hand.png';
+import phoneImage from '@/assets/mobile-hand.png';
 
 const WhyPaySection = () => {
   const features = [
@@ -20,7 +20,6 @@ const WhyPaySection = () => {
     <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row items-center gap-8 lg:gap-12 xl:gap-16">
-          {/* Left - Phone Image */}
           <div className="w-full lg:w-1/2 flex justify-center lg:justify-start">
             <div className="relative max-w-xs sm:max-w-sm lg:max-w-md">
               <img
@@ -31,7 +30,6 @@ const WhyPaySection = () => {
             </div>
           </div>
 
-          {/* Right - Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
             <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-secondary-foreground  mb-3 sm:mb-4 leading-normal  md:leading-relaxed">
               Why Pay Education Fees
